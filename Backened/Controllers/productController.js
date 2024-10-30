@@ -16,6 +16,8 @@ exports.createProduct = async (req, res) => {
       MadeIn,
       Proccessor,
       Quantity,
+      Category,
+      SubCategory,
     } = req.body;
 
     let imagePath = '';
@@ -42,7 +44,10 @@ exports.createProduct = async (req, res) => {
           image: imagePath,
           Proccessor,
           Quantity,
+          Category,
+          SubCategory,
         });
+        
 
         await newProduct.save();
         res.status(201).json({

@@ -12,7 +12,7 @@ const productSchema = new Schema({
   },
   Title: {
     type: String,
-    required: true // You can use a string for time, e.g., "10:00 AM"
+    required: true  
   },
   Price: {
     type: Number,
@@ -50,7 +50,15 @@ const productSchema = new Schema({
   Quantity: {
     type: Number,
     required: true
-  }
+  },
+  Category: {
+    type: String,
+    required: true
+  },
+  SubCategory: {
+    type: String,
+    required: true
+  },
 
 });
 

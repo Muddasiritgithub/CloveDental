@@ -28,7 +28,8 @@ async function uploadFirebase(req, res,next) {
   console.log("Request File:", req.file);  
   try {
     console.log("Inside firebase upload function:", req.file);
-    const fileName = `${process.env.FIRE_BASE_FOLDER}/${req.file.name}`;
+    const fileName = `${process.env.FIRE_BASE_FOLDER}/${req.file.originalname}`;
+    console.log("File name is here=>",fileName)
     const blob = bucket.file(fileName);
 
     const blobStream = blob.createWriteStream({
