@@ -11,7 +11,7 @@ import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 
 
 
-const index = () => {
+const Index = () => {
   const path = usePathname();
   const isMobile = useMediaQuery('(max-width:600px)');
 
@@ -111,4 +111,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;

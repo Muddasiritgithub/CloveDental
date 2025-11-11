@@ -53,7 +53,7 @@ const Login = () => {
             </Box>
             <Typography variant="h5" sx={{ mt: 3, fontFamily: "Livvic-Bold" }}>Ensures a seamless experience</Typography>
             <Typography sx={{ mt: 3, mb: 6,fontSize: 16, fontFamily: "Livvic-Regular" }}>
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+              Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,
             </Typography>
           </Box>
           <Grid

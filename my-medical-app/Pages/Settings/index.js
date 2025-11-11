@@ -1,10 +1,10 @@
-import React from 'react'
-import { Box } from '@mui/material'
+import React from "react";
+import { Box } from "@mui/material" 
 function Settings() {
   return (
     <Box sx={{marginLeft:"20px"}}> 
         <Box sx={{fontSize:"40px",color:"red"}}>Settings</Box>
-      Webhooks are a way for web applications to communicate with each other in real-time. They are HTTP callbacks that occur when certain events happen. Here's how they typically work:
+      Webhooks are a way for web applications to communicate with each other in real-time. They are HTTP callbacks that occur when certain events happen. Heres how they typically work:
 
 Setup: You set up a webhook in one application (the sender) to notify another application (the receiver) when a specific event occurs.
 Event Occurrence: When the specified event occurs in the sender application, it sends an HTTP POST request to the URL provided by the receiver application.
@@ -19,7 +19,7 @@ Data Sync: Keeping data synchronized between multiple systems.
 Event-driven Architecture: Building event-driven architectures where components react to events from other components.
 Popular platforms like GitHub, Stripe, and Slack provide webhook support, allowing developers to build powerful integrations and automate tasks.
 
-When working with webhooks, it's essential to consider security aspects like authentication and data validation to prevent unauthorized access and data tampering. Additionally, error handling and retry mechanisms should be implemented to handle failures gracefully.Webhooks are a way for web applications to communicate with each other in real-time. They are HTTP callbacks that occur when certain events happen. Here's how they typically work:
+When working with webhooks, its essential to consider security aspects like authentication and data validation to prevent unauthorized access and data tampering. Additionally, error handling and retry mechanisms should be implemented to handle failures gracefully.Webhooks are a way for web applications to communicate with each other in real-time. They are HTTP callbacks that occur when certain events happen. Heres how they typically work:
 
 Setup: You set up a webhook in one application (the sender) to notify another application (the receiver) when a specific event occurs.
 Event Occurrence: When the specified event occurs in the sender application, it sends an HTTP POST request to the URL provided by the receiver application.
@@ -34,7 +34,7 @@ Data Sync: Keeping data synchronized between multiple systems.
 Event-driven Architecture: Building event-driven architectures where components react to events from other components.
 Popular platforms like GitHub, Stripe, and Slack provide webhook support, allowing developers to build powerful integrations and automate tasks.
 
-When working with webhooks, it's essential to consider security aspects like authentication and data validation to prevent unauthorized access and data tampering. Additionally, error handling and retry mechanisms should be implemented to handle failures gracefully.Webhooks are a way for web applications to communicate with each other in real-time. They are HTTP callbacks that occur when certain events happen. Here's how they typically work:
+When working with webhooks, its essential to consider security aspects like authentication and data validation to prevent unauthorized access and data tampering. Additionally, error handling and retry mechanisms should be implemented to handle failures gracefully.Webhooks are a way for web applications to communicate with each other in real-time. They are HTTP callbacks that occur when certain events happen. Heres how they typically work:
 
 Setup: You set up a webhook in one application (the sender) to notify another application (the receiver) when a specific event occurs.
 Event Occurrence: When the specified event occurs in the sender application, it sends an HTTP POST request to the URL provided by the receiver application.
@@ -49,8 +49,8 @@ Data Sync: Keeping data synchronized between multiple systems.
 Event-driven Architecture: Building event-driven architectures where components react to events from other components.
 Popular platforms like GitHub, Stripe, and Slack provide webhook support, allowing developers to build powerful integrations and automate tasks.
 
-When working with webhooks, it's essential to consider security aspects like authentication and data validation to prevent unauthorized access and data tampering. Additionally, error handling and retry mechanisms should be implemented to handle failures gracefully.
-Webhooks are a way for web applications to communicate with each other in real-time. They are HTTP callbacks that occur when certain events happen. Here's how they typically work:
+When working with webhooks, its essential to consider security aspects like authentication and data validation to prevent unauthorized access and data tampering. Additionally, error handling and retry mechanisms should be implemented to handle failures gracefully.
+Webhooks are a way for web applications to communicate with each other in real-time. They are HTTP callbacks that occur when certain events happen. Heres how they typically work:
 
 Setup: You set up a webhook in one application (the sender) to notify another application (the receiver) when a specific event occurs.
 Event Occurrence: When the specified event occurs in the sender application, it sends an HTTP POST request to the URL provided by the receiver application.
@@ -65,8 +65,8 @@ Data Sync: Keeping data synchronized between multiple systems.
 Event-driven Architecture: Building event-driven architectures where components react to events from other components.
 Popular platforms like GitHub, Stripe, and Slack provide webhook support, allowing developers to build powerful integrations and automate tasks.
 
-When working with webhooks, it's essential to consider security aspects like authentication and data validation to prevent unauthorized access and data tampering. Additionally, error handling and retry mechanisms should be implemented to handle failures gracefully.  
-Webhooks are a way for web applications to communicate with each other in real-time. They are HTTP callbacks that occur when certain events happen. Here's how they typically work:
+When working with webhooks, its essential to consider security aspects like authentication and data validation to prevent unauthorized access and data tampering. Additionally, error handling and retry mechanisms should be implemented to handle failures gracefully.  
+Webhooks are a way for web applications to communicate with each other in real-time. They are HTTP callbacks that occur when certain events happen. Heres how they typically work:
 
 Setup: You set up a webhook in one application (the sender) to notify another application (the receiver) when a specific event occurs.
 Event Occurrence: When the specified event occurs in the sender application, it sends an HTTP POST request to the URL provided by the receiver application.
@@ -81,7 +81,7 @@ Data Sync: Keeping data synchronized between multiple systems.
 Event-driven Architecture: Building event-driven architectures where components react to events from other components.
 Popular platforms like GitHub, Stripe, and Slack provide webhook support, allowing developers to build powerful integrations and automate tasks.
 
-When working with webhooks, it's essential to consider security aspects like authentication and data validation to prevent unauthorized access and data tampering. Additionally, error handling and retry mechanisms should be implemented to handle failures gracefully.
+When working with webhooks, its essential to consider security aspects like authentication and data validation to prevent unauthorized access and data tampering. Additionally, error handling and retry mechanisms should be implemented to handle failures gracefully.
     </Box>
   )
 }

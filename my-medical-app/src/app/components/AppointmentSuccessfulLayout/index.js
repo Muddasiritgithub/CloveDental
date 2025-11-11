@@ -5,13 +5,11 @@ import Image from "next/image";
 import dateIcon from "../../../../public/Assets/Images/dateIcon.svg";
 import medIcon from "../../../../public/Assets/Images/medIcon.svg";
 import mailIcon from "../../../../public/Assets/Images/mailIcon.svg";
-import { usePathname } from 'next/navigation';
-import Link from 'next/link';
+ import Link from 'next/link';
 
 
-const index = () => {
-  const path = usePathname();
-  const isMobile = useMediaQuery('(max-width:600px)');
+const Index = () => {
+   const isMobile = useMediaQuery('(max-width:600px)');
   const marginLeft = isMobile ? "0px" : "20px";
 
   return (
@@ -97,4 +95,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;

@@ -17,7 +17,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 
-function index() {
+function Index() {
     const path = usePathname();
     return (<>
         <Card variant="outlined" sx={{ width: 250, borderRadius: "16px" }}>
@@ -75,4 +75,4 @@ function index() {
 
 }
 
-export default index
+export default Index
